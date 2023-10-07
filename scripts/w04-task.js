@@ -19,9 +19,14 @@ let myProfile = {
 myProfile.placesLived.push(
     {
       place: 'Brasília, Brazil',
-      length: '27 years'
-    }
-)
+      length: '26 years'
+    },
+    {
+        place: 'São Paulo, Brazil',
+        length: '1.5 years'
+      }
+);
+
 
 document.querySelector('#name').textContent = myProfile.name;
 document.querySelector('#photo').src = myProfile.photo;
